@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>Menu Fastfood website</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="menu-header">
+        <div id="landing-page">
+            <div id="menu-icon">
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div class="menu-bar"> 
+            </div>
+            <div id="avatar-circle"><img src="images/logoBig.png" width="150px" height="150px"/></div>
+            <div id="landing-text">
+            <p id="landing-text">We provide the best food!</p>
+            <p id="landing-text">At the <b>Right </b>place</p>
+            </div>
+        </div>
+        <div id="happy-hour">
+            <div class="grid-container">
+                <div class="one" id="orange-square">
+                    <p class="happy">Happy Hour!</p>
+                    <p class="happy">Party Time!</p>
+                </div>
+                <div class=" one"><img src="images/breakfast.jpg"/></div>
+                <div class="one"><img src="images/lunch.jpg" alt="lunch"></div>
+                <div class=" one"><img src="images/dinner.jpg" alt="dinner"></div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="row food">
+            <div class="col-6">
+                <div class="food-card">
+                    <img src="images/fastFood1.jpg" class="fast-food-1"/>
+                    <img src="images/fastFood2.jpg" class="fast-food-1"/>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="food-description">
+              <h2 class="joint-name">Fast food</h2>
+              <p class="joint-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  Nam at lectus urna duis convallis convallis tellus id interdum. 
+                  Cras pulvinar mattis nunc sed blandit. 
+                  Ipsum a arcu cursus vitae congue. Nisi scelerisque eu ultrices vitae auctor eu. 
+                  Consectetur adipiscing elit ut aliquam purus. 
+                  Nisl nunc mi ipsum faucibus vitae aliquet nec.
+                  Consequat ac felis donec et odio pellentesque. 
+                </p>
+                <button type="button" class="gallery">View gallery</button>
+            </div>
+            </div>
+        </div>
+        <div class="row food">
+            <div class="col-6 ">
+                <div class="drink">
+              <h2 class="drink-name">Fast food</h2>
+              <p class="drink-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  Nam at lectus urna duis convallis convallis tellus id interdum. 
+                  Cras pulvinar mattis nunc sed blandit. 
+                  Ipsum a arcu cursus vitae congue. Nisi scelerisque eu ultrices vitae auctor eu. 
+                  Consectetur adipiscing elit ut aliquam purus. 
+                  Nisl nunc mi ipsum faucibus vitae aliquet nec.
+                  Consequat ac felis donec et odio pellentesque. 
+                </p>
+                <button type="button" class="gallery">View gallery</button>
+            </div>
+            </div>
+            <div class="col-6">
+                <div class="drink-card">
+                </div>
+            </div>
+            
+        </div>
+
+
+        <section class="food_container">
+
+<!------------------------ link tabs ---------------------->
+    <div class="food_div">
+      <div>
+        <ul class="food_nav">
+          <li><a href="#fast_food" onclick="openTab(event, 'fast_food')" id="defaultOpen" class=" tablinks">Fast Food</a></li>
+          <li><a href="#drinks" onclick="openTab(event, 'drinks')" class="tablinks">Drinks</a></li>
+          <li><a href="#chicken" onclick="openTab(event, 'chicken')" class="tablinks">Chicken</a></li>
+          <li><a href="#rice" onclick="openTab(event, 'rice')" class="tablinks">Rice</a></li>
+        </ul>
+      </div>
+
+<!---------------------- Fast food images ---------------->
+      <div class="image_div">
+          <div class="image_container tab_content" id="fast_food">
+                <div class="row_container">
+                  <div class="column">
+                      <img src="images/chickenBurger.jpg" alt="Chicken Burger">
+                      <br/><br/>
+                      <h4>Chicken Burger</h4>
+                  </div>
+
+                  <div class="column">
+                      <img src="images/beefBurger.jpg" alt="Beef Burger">
+                      <br/><br/>
+                      <h4>Beef Burger</h4>
+                  </div>
+
+                  <div class="column">
+                      <img src="images/chickenPizza.jpg" alt="Chicken Pizza">
+                      <br/><br/>
+                      <h4>Chicken Pizza</h4>
+                  </div>
+              </div>
+
+              </div>
+          
+          
+ <!---------------- Drink tab --------------->
+              <div id="drinks" class="tab_content">
+                <img src="images/lunch.jpg" class="drink" alt="Drink">
+                <br/>
+                <h4 class="drink">Drink</h4><br>
+              </div>
+
+<!----------------- Chicken tab --------------->
+              <div id="chicken" class="tab_content">
+                <img src="images/dinner.jpg" class="chicken" alt="Chicken">
+                <br/>
+                <h4 class="chicken">Chicken</h4><br>
+              </div>
+
+<!----------------- Rice tab ------------------->
+              <div id="rice" class="tab_content">
+                <img src="images/fastFood2.jpg" class="rice" alt="Rice">
+                <br/>
+                <h4 class="rice">Rice</h4><br>
+              </div>
+          </div>
+
+
+    </div>
+  </section>
+        
+        <div class="customers">
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+            
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                  <img src="images/p1.png" alt="p1" style="width:100%">
+                  <div class="text">Caption Text</div>
+                </div>
+              
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="images/p2.png" style="width:100%">
+                  <div class="text">Caption Two</div>
+                </div>
+              
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="images/p3.png" style="width:100%">
+                  <div class="text">Caption Three</div>
+                </div>
+              
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+              
+              <!-- The dots/circles -->
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
+            
+                </div>
+                <div class="subscribe">
+                    <h2>Get our daily food delivered into your email</h2>
+                    <form action="">
+                        <input type="text" placeholder="Your email">
+                        <button>Subscribe</button>
+                    </form>
+                </div>
+                <footer>
+                    <div class="wrapper">
+                        <div class="tagline">
+                            <img src="images/logoBig.png" alt="logo">
+                            <p>Thatswhat we are</p>
+                        </div>
+                        <span class="social-icons">
+                            <img src="images/fb.png" alt="facebook">
+                            <img src="images/tweet.png" alt="twitter">
+                            <img src="images/pin.png" alt="pinterst">
+                        </span>
+                        <p>2016 Menu Restaurant</p>
+            
+                    </div>
+                    
+                </footer>
+        
+                <script src="script.js"></script>
+    </body>
+</html>
